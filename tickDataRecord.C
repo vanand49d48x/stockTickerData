@@ -69,14 +69,16 @@ namespace tickRecord {
                         line++;
 
                         if (result == EOF || result != 4) {
-                                std::cout << "Error in file input.txt on line  " <<  line << ". This record will not be taken into consideration for calculation" << std::endl;
+                                std::cout << "Error in file input.txt on line  " <<  line << ". This record will not be taken into consideration for calculation" << 
+                                        std::endl;
 dl;
                                 continue;
                         }
 
                         symbolName = buff;
                                                 if (!checkFileConsistency(timeStamp, symbolName, tradePrice, tradeSize)) {
-                                std::cout << "Error in file input.txt on line  " <<  line << ". This record will not be taken into consideration for calculation" << std::endl;
+                                std::cout << "Error in file input.txt on line  " <<  line << ". This record will not be taken into consideration for calculation" <<
+                                        std::endl;
 dl;
                                 continue;
                         }
