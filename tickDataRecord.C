@@ -96,8 +96,8 @@ dl;
 
                 if ( it  == tickDataMap.end())
                 {
-                        it = tickDataMap.insert(it, std::pair<std::string, std::tuple<unsigned long  long, unsigned  long long, int, int, int, int>>(symbolName, std::make_t
-uple(0,0,0,0,0,0)));
+                        it = tickDataMap.insert(it, std::pair<std::string, std::tuple<unsigned long  long, unsigned  long long, int, int, int, int>>(symbolName, 
+                                                                                                                 std::make_tuple(0,0,0,0,0,0)));
                 }
 
 
