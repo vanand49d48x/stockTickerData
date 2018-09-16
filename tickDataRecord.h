@@ -39,6 +39,7 @@ namespace tickRecord {
                          *  Input  : None
                          *  Output : None
                          */
+                         void writeToFile();
                          
                         /** FunctionName: checkFileConsistency()
                          *  This function checks for consistency for individual fields read from file
